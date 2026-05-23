@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 import React, { useEffect, useState } from 'react';
 
@@ -168,6 +169,19 @@ export default function Hero() {
         background: 'linear-gradient(to bottom, rgba(0,0,0,0.6), transparent)',
         zIndex: 1, pointerEvents: 'none'
       }} />
+=======
+import React from 'react';
+
+export default function Hero() {
+  return (
+    <div className="relative flex min-h-screen w-full items-center bg-foreground align-middle">
+      <iframe
+        src="https://player.vimeo.com/video/362997602?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1&controls=0"
+        className="pointer-events-none aspect-video h-full w-full"
+        allow="autoplay; fullscreen"
+        allowFullScreen
+      ></iframe>
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
     </div>
   );
 }

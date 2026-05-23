@@ -20,6 +20,7 @@ export interface Repo {
 
 export const repos: Repo[] = [
   {
+<<<<<<< HEAD
     name: 'IndiaQuant-MCP',
     description:
       'Python MCP server integrating LLMs with live NSE stock data, Black-Scholes Greeks, RSI scanning, and virtual portfolio management via Claude Desktop.',
@@ -43,6 +44,30 @@ export const repos: Repo[] = [
     url: 'https://github.com/PardhuWebDev/VELA',
     language: 'Python',
     tags: ['Whisper', 'Groq', 'React']
+=======
+    name: 'telegram-ai-bot',
+    description:
+      'A production-ready Telegram bot template with OpenAI integration. Perfect for building conversational AI experiences.',
+    url: 'https://github.com/bettinasosa/telegram-bot-template',
+    language: 'TypeScript',
+    tags: ['Template', 'AI', 'Bot'],
+    featured: true
+  },
+  {
+    name: 'portfolio',
+    description:
+      'This website! Built with Next.js 14, GSAP animations, and a custom design system.',
+    url: 'https://github.com/bettinasosa/portfolio',
+    language: 'TypeScript',
+    tags: ['Next.js', 'GSAP', 'Design']
+  },
+  {
+    name: 'mpc-voting-contract',
+    description: 'A MPC voting contract.',
+    url: 'https://github.com/bettinasosa/voting-contract',
+    language: 'Rust',
+    tags: ['Web3', 'Smart Contracts']
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
   }
 ];
 
@@ -112,7 +137,11 @@ export default function OpenSourceShowcase() {
           <p className="text-xs text-foreground/50">Templates & repos</p>
         </div>
         <Link
+<<<<<<< HEAD
           href="https://github.com/PardhuWebDev"
+=======
+          href="https://github.com/bettinasosa"
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center gap-1.5 rounded-full border border-foreground/10 px-2.5 py-1 text-[11px] text-foreground/70 transition-all hover:border-foreground/30 hover:text-foreground"
@@ -239,6 +268,7 @@ export default function OpenSourceShowcase() {
           ))}
         </div>
       )}
+<<<<<<< HEAD
 
       {/* Resume Download */}
       <div className="mt-6 rounded-2xl border border-foreground/5 bg-white p-6 shadow-sm">
@@ -261,6 +291,8 @@ export default function OpenSourceShowcase() {
           </a>
         </div>
       </div>
+=======
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
     </div>
   );
 }

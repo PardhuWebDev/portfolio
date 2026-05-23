@@ -65,6 +65,7 @@ export default function Header() {
             {!isMobile() && (
               <>
                 <div className="hover:rotate-[360deg]">©</div>
+<<<<<<< HEAD
                 <div className="relative flex overflow-hidden whitespace-nowrap">
                   <div className="ease-custom-cubic transition-transform duration-500 group-hover:translate-x-[-100%]">
                     coded by
@@ -77,6 +78,21 @@ export default function Header() {
               translate-x-full transition-transform duration-500 group-hover:translate-x-[-115px]"
                   >
                     Saradhi
+=======
+                <div className="relative flex overflow-hidden">
+                  <div className="ease-custom-cubic transition-transform duration-500 group-hover:translate-x-[-100%]">
+                    coded by
+                  </div>
+                  <div className="ease-custom-cubic px-1 transition-transform duration-500 group-hover:translate-x-[-65px]">
+                    Bettina
+                  </div>
+
+                  <div
+                    className="ease-custom-cubic
+              translate-x-full transition-transform duration-500 group-hover:translate-x-[-65px]"
+                  >
+                    Sosa
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
                   </div>
                 </div>
               </>
@@ -90,10 +106,13 @@ export default function Header() {
                 <Magnetic>
                   <Link href={'/about'}>About</Link>
                 </Magnetic>
+<<<<<<< HEAD
               </div>
             </div>
             <div className="group relative z-10 flex cursor-pointer flex-col p-3">
               <div className="flex flex-col">
+=======
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
                 <Magnetic>
                   <Link href={'/projects'}>Projects</Link>
                 </Magnetic>
@@ -104,6 +123,12 @@ export default function Header() {
                 <Magnetic>
                   <Link href={'/web'}>Web Gallery</Link>
                 </Magnetic>
+<<<<<<< HEAD
+=======
+                <Magnetic>
+                  <Link href={'/blog'}>Blog</Link>
+                </Magnetic>
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
               </div>
             </div>
             <div className="group relative z-10 flex cursor-pointer flex-col p-3">

@@ -140,7 +140,11 @@ export default function IMessageWidget() {
 
     // trigger an email draft with the collected data
     try {
+<<<<<<< HEAD
       const subject = "New message from Pardha Saradhi's portfolio";
+=======
+      const subject = 'New message from your portfolio iMessage widget';
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
       const bodyLines = [
         `What they wrote first: ${formData.topic}`,
         '',
@@ -151,7 +155,11 @@ export default function IMessageWidget() {
       ];
 
       const body = bodyLines.join('\n');
+<<<<<<< HEAD
       const mailtoHref = `mailto:pardhu.sridhar@gmail.com?subject=${encodeURIComponent(
+=======
+      const mailtoHref = `mailto:bettinasosarohl@gmail.com?subject=${encodeURIComponent(
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
         subject
       )}&body=${encodeURIComponent(body)}`;
 
@@ -239,8 +247,13 @@ export default function IMessageWidget() {
                   <div className="flex max-w-[82%] items-start gap-3">
                     <div className="mt-4 h-12 w-12 overflow-hidden rounded-full">
                       <Image
+<<<<<<< HEAD
                         src="/images/profile.jpg"
                         alt="Pardha avatar"
+=======
+                        src="/images/profile2.jpg"
+                        alt="Betts avatar"
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
                         width={40}
                         height={40}
                         className="w-full rounded-full object-cover"
@@ -248,7 +261,11 @@ export default function IMessageWidget() {
                     </div>
                     <div className="space-y-1">
                       <span className=" block text-xs font-medium text-foreground/80 text-gray-300 sm:text-[13px]">
+<<<<<<< HEAD
                         Pardha
+=======
+                        Betts
+>>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
                       </span>
                       <div className="rounded-2xl rounded-tl-md bg-foreground/5 px-4 py-2 text-[16px] leading-relaxed text-foreground shadow-sm sm:text-[17px]">
                         {message.text}
