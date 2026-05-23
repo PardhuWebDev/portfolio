@@ -43,11 +43,7 @@ export default function ContactInfo() {
               <Image
                 fill
                 alt={'profile'}
-<<<<<<< HEAD
                 src={`/images/profile.jpg`}
-=======
-                src={`/images/profile2.jpg`}
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
@@ -62,57 +58,36 @@ export default function ContactInfo() {
           >
             <RoundedButton
               backgroundColor="secondary"
-<<<<<<< HEAD
               className="absolute h-[100px] w-[100px] cursor-pointer items-center justify-center rounded-full bg-primary p-0 text-white sm:h-[200px] sm:w-[200px]"
-=======
-              className=" absolute h-[100px] w-[100px] cursor-pointer items-center justify-center rounded-full bg-primary p-0 text-white sm:h-[200px] sm:w-[200px]"
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
             >
               <Link href={'/contact'}>Get in touch</Link>
             </RoundedButton>
           </motion.div>
         </div>
         <div className="mt-6 flex gap-5 sm:mx-[100px]">
-<<<<<<< HEAD
           <div onClick={() => window.location.href = 'mailto:pardhu.sridhar@gmail.com'} className="cursor-pointer">
             <RoundedButton>pardhu.sridhar@gmail.com</RoundedButton>
           </div>
-=======
-          <RoundedButton>bettinasosarohl@gmail.com</RoundedButton>
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
         </div>
 
         <div className="mt-20 flex flex-col justify-between p-5 2xs:mt-52 sm:mx-[100px] sm:mt-48 sm:flex-row">
           <p className="min-w-screen mb-5 text-base sm:max-w-xs">
-<<<<<<< HEAD
             AIML Engineer · Full-Stack Developer · Gen AI Specialist. Building
             intelligent systems at the intersection of AI and engineering.
-=======
-            AI/LLM enthusiast | Cutting-edge tech advocate | Web3 builder |
-            Passionate about using technology to make the world a better place.
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
           </p>
           <div className="flex items-end gap-2">
             <span className="flex flex-col gap-3">
               <h3 className="m-0 cursor-default p-1 text-base font-light text-gray-500">
                 Version
               </h3>
-<<<<<<< HEAD
               <p className="relative m-0 cursor-pointer p-1">2025 © Edition</p>
-=======
-              <p className="relative m-0 cursor-pointer p-1">2024 © Edition</p>
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
             </span>
             <span className="flex flex-col gap-3">
               <h3 className="m-0 cursor-default p-1 text-base font-light text-gray-500">
                 Timezone
               </h3>
               <p className="relative m-0 cursor-pointer p-1">
-<<<<<<< HEAD
                 {timeNow} IST (GMT+5:30)
-=======
-                {timeNow} UK (GMT+1)
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
               </p>
             </span>
           </div>
@@ -123,43 +98,21 @@ export default function ContactInfo() {
               </h3>
               <Magnetic>
                 <Link
-<<<<<<< HEAD
                   href="https://github.com/PardhuWebDev"
                   className={animatedUnderlineStyle}
                   target="_blank"
                 >
                   Github
-=======
-                  href="https://twitter.com/bettysrohl"
-                  className={animatedUnderlineStyle}
-                >
-                  Twitter
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
                 </Link>
               </Magnetic>
             </span>
             <Magnetic>
               <Link
-<<<<<<< HEAD
                 href="https://linkedin.com/in/pardhuwebdev123"
                 className={animatedUnderlineStyle}
                 target="_blank"
               >
                 LinkedIn
-=======
-                href="https://github.com/bettinasosa"
-                className={animatedUnderlineStyle}
-              >
-                Github
-              </Link>
-            </Magnetic>
-            <Magnetic>
-              <Link
-                href="https://www.linkedin.com/in/bettina-sosa/"
-                className={animatedUnderlineStyle}
-              >
-                Linkedin
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
               </Link>
             </Magnetic>
           </div>

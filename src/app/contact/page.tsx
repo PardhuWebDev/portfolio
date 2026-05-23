@@ -19,11 +19,7 @@ export default function Contact() {
   };
 
   const copyEmail = () => {
-<<<<<<< HEAD
     navigator.clipboard.writeText('pardhu.sridhar@gmail.com');
-=======
-    navigator.clipboard.writeText('bettinasosarohl@gmail.com');
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
     setEmailCopied(true);
     setTimeout(() => setEmailCopied(false), 2000);
   };
@@ -37,7 +33,6 @@ export default function Contact() {
   };
 
   return (
-<<<<<<< HEAD
     <div className="-mt-20 bg-foreground text-white">
       <div className="flex min-h-screen w-full items-center justify-center pt-44 align-middle text-[8.6vw] xs:text-[5.6vw]">
         <div className="p-12 xs:w-1/2 xs:p-0">
@@ -56,26 +51,6 @@ export default function Contact() {
           <div className="flex justify-between uppercase">
             <p className="m-0">Chennai </p>
             <Link href={'https://linkedin.com/in/pardhuwebdev123'} target="_blank">
-=======
-    <div className="-mt-20 bg-foreground text-white ">
-      <div className="flex min-h-screen w-full items-center justify-center pt-44 align-middle text-[8.6vw] xs:text-[5.6vw]">
-        <div className="p-12 xs:w-1/2 xs:p-0">
-          <div className="flex justify-between uppercase">
-            <p className="m-0">Bettina</p>
-            <p className="m-0">Sosa</p>
-          </div>
-          <div className="flex justify-between uppercase">
-            <p className="m-0">software</p>
-            <p className="m-0">&</p>
-          </div>
-          <div className="flex justify-between uppercase">
-            <p className="m-0">design</p>
-            <p className="m-0">engineer</p>
-          </div>
-          <div className="flex justify-between uppercase">
-            <p className="m-0">Ldn </p>
-            <Link href={'https://www.linkedin.com/in/bettina-sosa/'}>
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
               <TextDisperse setBackground={setBackground}>
                 <p>→Linkedin</p>
               </TextDisperse>
@@ -87,11 +62,7 @@ export default function Contact() {
               onClick={() => {
                 toast({
                   description:
-<<<<<<< HEAD
                     'Email copied to clipboard — or drop a message on the form below!'
-=======
-                    'Email copied to clipboard, alternatively write your enquiry on the form!'
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
                 });
                 scrollToEmail();
               }}
@@ -99,11 +70,7 @@ export default function Contact() {
               <p className="m-0">→Email</p>
             </TextDisperse>
 
-<<<<<<< HEAD
             <Link href={'https://github.com/PardhuWebDev'} target="_blank">
-=======
-            <Link href={'https://github.com/bettinasosa'}>
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
               <TextDisperse setBackground={setBackground}>
                 <p>→Github</p>
               </TextDisperse>

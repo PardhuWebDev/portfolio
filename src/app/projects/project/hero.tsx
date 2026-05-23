@@ -35,15 +35,9 @@ export default function ProjectHero({
       {isImage ? (
         <div className="flex w-full justify-center">
           <Image
-<<<<<<< HEAD
             className="h-auto w-[80vw] pt-12"
             width={1920}
             height={1080}
-=======
-            className="h-auto w-[80vw] pt-12 "
-            width="300"
-            height="300"
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
             src={media}
             quality={100}
             alt="project image"

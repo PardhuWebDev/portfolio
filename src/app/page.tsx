@@ -10,7 +10,6 @@ import Description from '@/components/home/Description/description';
 
 const slider1 = [
   {
-<<<<<<< HEAD
     color: '#0f172a',
     src: 'projects/indiaQuant.png'
   },
@@ -25,27 +24,10 @@ const slider1 = [
   {
     color: '#111827',
     src: 'projects/stock.png'
-=======
-    color: 'white',
-    src: 'stylesync/pca.png'
-  },
-  {
-    color: 'white',
-    src: 'stylesync/diagram.png'
-  },
-  {
-    color: '#21242b',
-    src: 'catapult-trading/dashboard.png'
-  },
-  {
-    color: '#21242b',
-    src: 'm31/controller.jpg'
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
   }
 ];
 const slider2 = [
   {
-<<<<<<< HEAD
     color: '#1a1a2e',
     src: 'projects/devpulse.png'
   },
@@ -60,22 +42,6 @@ const slider2 = [
   {
     color: '#0d1117',
     src: 'projects/devpulse.png'
-=======
-    color: '#d4e3ec',
-    src: 'm31/specs.png'
-  },
-  {
-    color: '#9289BD',
-    src: 'axo/prototype.png'
-  },
-  {
-    color: 'white',
-    src: 'm31/app.png'
-  },
-  {
-    color: 'white',
-    src: 'stylesync/hero.svg'
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
   }
 ];
 
@@ -117,10 +83,6 @@ export default function Home() {
             onClick={scrollToHero}
           >
             <p>Scroll</p>
-<<<<<<< HEAD
-=======
-
->>>>>>> cd09fbcb131a00886d5a242a4e52696754e7ec6b
             <ArrowDownRight strokeWidth={3} className="size-6" />
           </div>
         </Magnetic>
